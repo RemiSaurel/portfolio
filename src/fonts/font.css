@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'SatoshiMedium';
+    src: local('Satoshi'),
+    url('./Satoshi-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'SatoshiBold';
+    src: local('Satoshi'),
+    url('./Satoshi-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'SatoshiLight';
+    src: local('Satoshi'),
+    url('./Satoshi-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'SatoshiRegular';
+    src: local('Satoshi'),
+    url('./Satoshi-Regular.ttf') format('ttf');
+}
