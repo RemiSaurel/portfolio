@@ -90,7 +90,7 @@ function Projects() {
         grabCursor={true}
         centeredSlides={true}
         autoplay={{
-          delay: 5000,
+          delay: 7500,
           disableOnInteraction: false,
         }}
         slidesPerView={"auto"}
