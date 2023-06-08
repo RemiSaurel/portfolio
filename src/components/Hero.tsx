@@ -24,19 +24,19 @@ function Hero() {
         <span className="text-yellow-500"> IRIT </span>
         (TALENT team), on a TEL subject.
       </p>
-      <button className="border-2 border-white rounded-lg text-xl px-4 py-2 font-bold mb-4 hover:bg-cyan-900 transition-all duration-200">
+      <button className="border-2 border-white rounded-lg text-xl px-4 py-2 font-bold mb-4 hover:bg-blue-900 transition-all duration-200">
         <a href="mailto:remi.saurel@toulouse.miage.fr">Contact me</a>
       </button>
       <div className="flex gap-8">
         <a
-          className="w-14 h-14 rounded-full bg-cyan-900 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-cyan-950"
+          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
           href="https://github.com/RemiSaurel"
           target="_blank"
         >
           <img src={github} alt="github" />
         </a>
         <a
-          className="w-14 h-14 rounded-full bg-cyan-900 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-cyan-950"
+          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
           href="https://www.linkedin.com/in/r%C3%A9mi-saurel/"
           target="_blank"
         >

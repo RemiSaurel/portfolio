@@ -4,6 +4,7 @@ import uxui from "../assets/uxui.svg";
 import frontend from "../assets/frontend.svg";
 import backend from "../assets/server.svg";
 import git from "../assets/git.svg";
+import SectionHeader from "./SectionHeader.tsx";
 
 const skills = [
   {
@@ -44,30 +45,25 @@ const skills = [
   },
 ];
 
+const subtitle = "some of the skills gained during my time at university, apprenticeships or on my own."
+
 function Skills() {
   return (
     <div className="m-auto w-4/5 md:w-3/4 lg:w-3/4" id="skills">
-      <div className="flex flex-col items-center justify-center pt-24">
-        <div className="text-4xl font-bold">
-          skills
-          <div className="relative w-full bottom-3.5 -z-10 -right-2 h-4 bg-green-800 rounded"></div>
-        </div>
-        <p className="text-center italic text-xl mb-4 w-4/5 md:w-2/5">
-          some of the skills gained during my time at university,
-          apprenticeships or on my own.
-        </p>
+      <div className="flex flex-col items-center justify-center">
+        <SectionHeader title="skills" subtitle={subtitle} />
 
-        <div className="grid gap-8 gap-y-20 mt-12 mb-8 sm:grid-cols-2 lg:grid-cols-3 cursor-default">
+        <div className="grid gap-8 gap-y-16 mt-16 mb-8 sm:grid-cols-2 lg:grid-cols-3 cursor-default">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col gap-4 items-center border border-white rounded-xl px-8 pb-4 group hover:bg-cyan-950 transition-all"
+              className="flex flex-col gap-4 items-center border border-white rounded-xl px-8 pb-4 group hover:bg-blue-950 transition-all"
             >
-              <div className="w-20 h-20 -rotate-45 bg-cyan-900 -top-10 relative transition-all duration-500 rounded-xl group-hover:rotate-0 ">
+              <div className="w-16 h-16 -rotate-45 bg-blue-900 -top-10 relative transition-all duration-500 rounded-xl group-hover:rotate-0 group-hover:scale-125">
                 <div className="flex justify-center items-center h-full">
                   <img
                     src={skill.logo}
-                    className="w-12 h-12"
+                    className="w-8 h-8"
                     alt={skill.name}
                   />
                 </div>

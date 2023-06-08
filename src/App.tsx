@@ -11,7 +11,7 @@ function App() {
             outerSize={40}
             innerScale={1}
             outerScale={2}
-            outerAlpha={0}
+            outerAlpha={0.1}
             outerStyle={{
                 border: '3px solid #E6AF2E'
             }}
