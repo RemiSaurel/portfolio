@@ -87,7 +87,7 @@ function Projects() {
           stretch: 0,
           depth: 100,
           modifier: 3,
-          slideShadows: false,
+          slideShadows: true,
         }}
         modules={[EffectCoverflow]}
         className="w-2/3 h-full py-8"
@@ -107,7 +107,7 @@ function Projects() {
                     className="object-scale-down object-top p-4 w-full h-4/5 rounded-lg"
                     alt={project.name}
                   />
-                  <div className="absolute bottom-0 w-full bg-gray-900 bg-opacity-80 transition-all duration-500 group-hover:opacity-100">
+                  <div className="absolute bottom-0 w-full bg-gray-900 bg-opacity-90 transition-all duration-500 group-hover:opacity-100">
                     <div className="px-4 py-2 text-2xl font-bold mt-2 text-white text-center">
                       {project.name}
                     </div>
@@ -115,13 +115,13 @@ function Projects() {
                       {project.tags.map((tag, tagIndex) => (
                         <span
                           key={tagIndex}
-                          className="px-3 py-1 mb-2 mr-2 text-sm text-gray-800 bg-gray-200 rounded-full"
+                          className="px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-800 bg-white rounded-full"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
-                    <div className="hidden md:block px-8 py-2 text-white text-md">
+                    <div className="hidden md:block px-8 py-2 text-white text-lg">
                       {project.description}
                     </div>
                     <div className="flex justify-center py-2">

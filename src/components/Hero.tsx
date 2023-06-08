@@ -12,7 +12,7 @@ function Hero() {
         Computer Science student apprentice{" "}
       </p>
       <p className="text-xl w-4/5 md:w-2/5 text-center mb-8">
-        I’m 25 years old, currently in
+        I’m 25 years old, currently in Master
         <span className="text-yellow-500"> MIAGE </span>
         (CS + Project management) at
         <span className="text-yellow-500"> University Paul Sabatier </span>
