@@ -66,7 +66,7 @@ function Projects() {
   return (
     <div className="w-full mb-8">
       <div className="m-auto w-full md:w-3/4 lg:w-2/3" id="projects">
-        <div className="flex flex-col gap-4 items-center justify-center pt-24">
+        <div className="flex flex-col items-center justify-center pt-24">
           <div className="text-4xl font-bold">
             projects
             <div className="relative w-full bottom-3.5 -z-10 -right-2 h-4 bg-green-800 rounded"></div>

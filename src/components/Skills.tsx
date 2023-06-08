@@ -47,12 +47,12 @@ const skills = [
 function Skills() {
   return (
     <div className="m-auto w-4/5 md:w-3/4 lg:w-3/4" id="skills">
-      <div className="flex flex-col gap-4 items-center justify-center pt-24">
+      <div className="flex flex-col items-center justify-center pt-24">
         <div className="text-4xl font-bold">
           skills
           <div className="relative w-full bottom-3.5 -z-10 -right-2 h-4 bg-green-800 rounded"></div>
         </div>
-        <p className="text-center italic text-xl w-4/5 md:w-2/5">
+        <p className="text-center italic text-xl mb-4 w-4/5 md:w-2/5">
           some of the skills gained during my time at university,
           apprenticeships or on my own.
         </p>
