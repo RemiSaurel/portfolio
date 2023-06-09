@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import {Autoplay, EffectCoverflow} from "swiper";
+import { Autoplay, EffectCoverflow } from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
@@ -42,7 +42,8 @@ const projects = [
       },
     ],
     tags: ["Web", "Front", "Back", "Python", "Spring Boot", "Docker"],
-    description: "Lockio is our Master project. This PoC was designed to demonstrate our idea about an innovative solution to store your stuff.",
+    description:
+      "Lockio is our Master project. This PoC was designed to demonstrate our idea about an innovative solution to store your stuff.",
   },
   {
     name: "OwnWorkspace",
@@ -58,7 +59,8 @@ const projects = [
       },
     ],
     tags: ["Web", "Front", "Vue", "Back", "Supabase"],
-    description: "This web app allows you to work with lofi-music, a pomodoro timer and a todo list.",
+    description:
+      "This web app allows you to work with lofi-music, a pomodoro timer and a todo list.",
   },
   {
     name: "SpotiDrone",
@@ -75,8 +77,9 @@ const projects = [
   },
 ];
 
-const subtitle = "always looking to learn new stuff, I love creating projects in my\n" +
-    "            spare time.";
+const subtitle =
+  "always looking to learn new stuff, I love creating projects in my\n" +
+  "            spare time.";
 
 function Projects() {
   return (

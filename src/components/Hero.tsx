@@ -7,26 +7,27 @@ function Hero() {
       <h1 className="text-8xl font-bold mb-8">🧑‍💻👋</h1>
       <h2 className="text-4xl font-bold flex gap-2">
         hi, i'm
-          <span className="text-yellow-500">
-              <TypeWriter
-                  options={{
-                    autoStart: true,
-                    loop: true,
-                 }}
-                  onInit={(typewriter) => {
-                      typewriter.typeString('rémi')
-                            .start()
-                            .pauseFor(2000)
-                            .deleteAll('natural')
-                            .typeString('coding')
-                            .pauseFor(2000)
-                            .deleteAll('natural')
-                            .typeString('learning')
-                            .pauseFor(2000)
-                            .deleteAll('natural')
-                  }}
-              />
-          </span>
+        <span className="text-yellow-500">
+          <TypeWriter
+            options={{
+              autoStart: true,
+              loop: true,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("rémi")
+                .start()
+                .pauseFor(2000)
+                .deleteAll("natural")
+                .typeString("coding")
+                .pauseFor(2000)
+                .deleteAll("natural")
+                .typeString("learning")
+                .pauseFor(2000)
+                .deleteAll("natural");
+            }}
+          />
+        </span>
       </h2>
       <p className="text-xl text-cyan-200 text-center">
         Computer Science student apprentice{" "}

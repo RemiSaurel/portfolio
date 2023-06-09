@@ -45,7 +45,8 @@ const skills = [
   },
 ];
 
-const subtitle = "some of the skills gained during my time at university, apprenticeships or on my own."
+const subtitle =
+  "some of the skills gained during my time at university, apprenticeships or on my own.";
 
 function Skills() {
   return (
@@ -61,11 +62,7 @@ function Skills() {
             >
               <div className="w-16 h-16 -rotate-45 bg-blue-900 -top-10 relative transition-all duration-500 rounded-xl group-hover:rotate-0 group-hover:scale-125">
                 <div className="flex justify-center items-center h-full">
-                  <img
-                    src={skill.logo}
-                    className="w-8 h-8"
-                    alt={skill.name}
-                  />
+                  <img src={skill.logo} className="w-8 h-8" alt={skill.name} />
                 </div>
               </div>
               <div className="text-3xl font-bold text-center -mt-10">
