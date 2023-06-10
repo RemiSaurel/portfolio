@@ -58,7 +58,7 @@ function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col gap-4 items-center border border-white rounded-xl px-8 pb-4 group hover:bg-blue-950 transition-all"
+              className="flex flex-col gap-4 items-center border border-white rounded-xl px-8 pb-4 group hover:bg-blue-950 hover:scale-105 transition-all"
             >
               <div className="w-16 h-16 -rotate-45 bg-blue-900 -top-10 relative transition-all duration-500 rounded-xl group-hover:rotate-0 group-hover:scale-125">
                 <div className="flex justify-center items-center h-full">

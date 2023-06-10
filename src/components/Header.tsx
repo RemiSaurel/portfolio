@@ -20,20 +20,20 @@ function Header() {
       </div>
       <nav className="flex justify-center mt-8 sm:absolute sm:mt-0 top-8 right-[90px] sm:right-[120px] lg:right-[212px] xl:right-[340px]">
         <div className="flex gap-6">
-          <div className="group">
-            <a onClick={() => navigate("home")}>home</a>
+          <div className="group" onClick={() => navigate("home")}>
+            <a>home</a>
             <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
           </div>
-          <div className="group">
-            <a onClick={() => navigate("skills")}>skills</a>
+          <div className="group" onClick={() => navigate("skills")}>
+            <a>skills</a>
             <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
           </div>
-          <div className="group">
-            <a onClick={() => navigate("projects")}>projects</a>
+          <div className="group"  onClick={() => navigate("projects")}>
+            <a>projects</a>
             <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
           </div>
-          <div className="group">
-            <a onClick={() => navigate("education")}>education</a>
+          <div className="group" onClick={() => navigate("education")}>
+            <a>education</a>
             <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
           </div>
         </div>

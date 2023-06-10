@@ -5,7 +5,7 @@ import Education from "./Education.tsx";
 
 function Main() {
   return (
-    <div className="h-42 absolute top-40 w-full">
+    <div className="absolute top-40 w-full">
       <Hero />
       <Skills />
       <Projects />

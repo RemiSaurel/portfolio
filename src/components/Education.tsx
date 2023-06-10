@@ -21,9 +21,9 @@ const education = [
     tags: ["Web development", "Maths", "Project Management", "Databases"],
   },
   {
-    degree: "DUT Informatique",
+    degree: "2-year CS diploma",
     date: "2019 - 2021",
-    school: "IUT de Rodez, France",
+    school: "DUT Informatique in CS, IUT de Rodez, France",
     tags: [
       "Programming introduction",
       "Maths",
@@ -39,11 +39,11 @@ function Education() {
       <div className="m-auto w-full md:w-3/4 lg:w-2/3" id="education">
         <SectionHeader title="education" subtitle="my education" />
         <div className="h-full w-full relative mt-6">
-          <div className="hidden sm:block absolute left-1/2 top-1/2 h-full w-2 rounded bg-yellow-500 transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="hidden sm:block absolute left-1/2 top-1/2 h-full w-2 rounded bg-white opacity-90 transform -translate-x-1/2 -translate-y-1/2"></div>
           {education.map((edu, index) => (
             <div className="flex flex-col group" key={index}>
               <div className="flex items-center justify-center">
-                <div className="text-3xl z-10 h-14 w-14 bg-[#112049] rounded-full flex items-center justify-center">
+                <div className="hidden sm:flex text-3xl z-10 h-16 w-16 bg-blue-950 rounded-full items-center justify-center border-4">
                   <img
                     src={education_logo}
                     alt="education"
@@ -53,10 +53,11 @@ function Education() {
               </div>
               <div
                 key={index}
-                className={`flex flex-col mx-8 ${
+                className={`my-2 md:my-0 flex flex-col mx-8 ${
                   index % 2 === 0 ? "items-start" : "items-end"
                 }`}
               >
+                <div className="text-2xl font-bold p-1 mb-1">{edu.degree}</div>
                 <div
                   className={`flex flex-col order-white border-2 bg-blue-950 p-4 rounded-xl w-full hover:scale-105 transition-all sm:w-[40%]  ${
                     index % 2 === 0
@@ -64,7 +65,6 @@ function Education() {
                       : "items-end text-right"
                   }`}
                 >
-                  <div className="text-2xl font-bold">{edu.degree}</div>
                   <div className="text-xl italic">📆 {edu.date}</div>
                   <div className="text-xl">📍 {edu.school}</div>
                   <div className="text-xl">
