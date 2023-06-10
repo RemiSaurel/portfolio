@@ -9,7 +9,7 @@ function Main() {
 
   return (
     <div className="mt-16 w-full">
-      {location.pathname === "/portfolio" && (
+      {location.pathname === "/portfolio/" && (
         <div>
           <Hero />
           <Skills />

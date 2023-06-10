@@ -22,19 +22,19 @@ function Header() {
           <div className="relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-blue-700 rounded"></div>
         </div>
         <div className="flex gap-6 pt-2">
-          <Link to="/portfolio">
+          <Link to="/portfolio/">
             <div className="group" onClick={() => navigate("skills")}>
               <span>skills</span>
               <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
             </div>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/portfolio/">
             <div className="group" onClick={() => navigate("projects")}>
               <span>projects</span>
               <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
             </div>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/portfolio/">
             <div className="group" onClick={() => navigate("education")}>
               <span>education</span>
               <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
