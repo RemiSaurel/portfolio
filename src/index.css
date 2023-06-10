@@ -26,3 +26,8 @@ body {
   padding: 0;
 }
 
+.swiper-pagination-bullet {
+  margin-top: 16px;
+  background-color: #ffffff !important;
+}
+

@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { Autoplay, EffectCoverflow } from "swiper";
+import {Autoplay, EffectCoverflow, Pagination} from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
@@ -91,6 +91,9 @@ function Projects() {
         effect={"coverflow"}
         spaceBetween={30}
         grabCursor={true}
+        pagination={{
+            clickable: true,
+        }}
         centeredSlides={true}
         autoplay={{
           delay: 7500,
@@ -104,7 +107,7 @@ function Projects() {
           modifier: 3,
           slideShadows: true,
         }}
-        modules={[Autoplay, EffectCoverflow]}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
         className="w-2/3 h-full py-8"
       >
         {projects.map((project, index) => (
