@@ -41,7 +41,7 @@ function Education() {
         <div className="h-full w-full relative mt-6">
           <div className="hidden sm:block absolute left-1/2 top-1/2 h-full w-2 rounded bg-yellow-500 transform -translate-x-1/2 -translate-y-1/2"></div>
           {education.map((edu, index) => (
-            <div className="flex flex-col" key={index}>
+            <div className="flex flex-col group" key={index}>
               <div className="flex items-center justify-center">
                 <div className="text-3xl z-10 h-14 w-14 bg-[#112049] rounded-full flex items-center justify-center">
                   <img
@@ -58,7 +58,7 @@ function Education() {
                 }`}
               >
                 <div
-                  className={`flex flex-col order-white border-2 bg-blue-950 p-4 rounded-xl w-full sm:w-[40%] b ${
+                  className={`flex flex-col order-white border-2 bg-blue-950 p-4 rounded-xl w-full hover:scale-105 transition-all sm:w-[40%]  ${
                     index % 2 === 0
                       ? "items-start text-left"
                       : "items-end text-right"

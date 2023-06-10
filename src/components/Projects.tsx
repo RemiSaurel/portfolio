@@ -89,7 +89,7 @@ function Projects() {
       </div>
       <Swiper
         effect={"coverflow"}
-        spaceBetween={30}
+        spaceBetween={10}
         grabCursor={true}
         pagination={{
           dynamicBullets: true,
@@ -101,11 +101,12 @@ function Projects() {
           disableOnInteraction: false,
         }}
         slidesPerView={"auto"}
+        speed={500}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
           depth: 70,
-          modifier: 3,
+          modifier: 1,
           slideShadows: true,
         }}
         modules={[Autoplay, EffectCoverflow, Pagination]}
