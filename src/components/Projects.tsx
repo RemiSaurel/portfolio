@@ -92,6 +92,7 @@ function Projects() {
         spaceBetween={30}
         grabCursor={true}
         pagination={{
+          dynamicBullets: true,
             clickable: true,
         }}
         centeredSlides={true}
