@@ -13,15 +13,19 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-router": "^6.12.1",
+    "react-router-dom": "^5.2.0",
     "swiper": "^9.3.2",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
@@ -34,6 +38,7 @@
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vite-plugin-copy": "^0.1.6"
   }
 }

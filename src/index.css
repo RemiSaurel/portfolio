@@ -31,3 +31,23 @@ body {
   background-color: #ffffff !important;
 }
 
+@media (min-width: 1920px) {
+  .swiper-wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+.swiper-slide-shadow-right {
+  border-radius: 0.5rem;
+}
+
+.swiper-slide-shadow-left {
+  border-radius: 0.5rem;
+}
+
+.disabled-link {
+  pointer-events: none;
+  cursor: default;
+  opacity: 30%;
+}

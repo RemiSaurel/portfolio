@@ -40,7 +40,8 @@ function Hero() {
         <span className="text-yellow-500"> MIAGE </span>
         (CS + Project management) at
         <span className="text-yellow-500"> University Paul Sabatier </span>
-        Toulouse, France. <br/>I’m working as a
+        Toulouse, France. <br />
+        I’m working as a
         <span className="text-yellow-500"> full-stack developer </span>
         for
         <span className="text-yellow-500"> Kosmos </span>
@@ -49,13 +50,13 @@ function Hero() {
         (TALENT team), on a TEL subject.
       </p>
       <div className="flex gap-8">
-          <a
-              className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
-              href="mailto:remi.saurel@toulouse.miage.fr"
-              target="_blank"
-          >
-              <img className="w-8 h-8" src={mail} alt="mail" />
-          </a>
+        <a
+          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
+          href="mailto:remi.saurel@toulouse.miage.fr"
+          target="_blank"
+        >
+          <img className="w-8 h-8" src={mail} alt="mail" />
+        </a>
         <a
           className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
           href="https://github.com/RemiSaurel"

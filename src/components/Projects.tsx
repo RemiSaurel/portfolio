@@ -88,6 +88,7 @@ function Projects() {
         <SectionHeader title="projects" subtitle={subtitle} />
       </div>
       <Swiper
+        roundLengths={true}
         effect={"coverflow"}
         spaceBetween={10}
         grabCursor={true}
@@ -103,14 +104,13 @@ function Projects() {
         slidesPerView={"auto"}
         speed={500}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 60,
           stretch: 0,
           depth: 70,
           modifier: 1,
-          slideShadows: true,
         }}
         modules={[Autoplay, EffectCoverflow, Pagination]}
-        className="w-2/3 h-full py-8"
+        className="w-full h-full py-8"
       >
         {projects.map((project, index) => (
           <SwiperSlide
@@ -118,16 +118,16 @@ function Projects() {
             className="bg-cover bg-center w-[300px] h-[300px] md:w-[400px] md:h-[500px] lg:w-[700px] lg:h-[600px]"
           >
             <div className="rounded-lg flex justify-center items-center">
-              <div className="justify-center w-[300px] h-[400px] md:w-[600px] md:h-[500px] lg:w-[700px] lg:h-[600px]">
+              <div className="justify-center w-[300px] h-[400px] md:w-[600px] md:h-[500px] lg:w-[700px] lg:h-[600px] group">
                 <div
-                  className={`bg-blue-900 rounded-lg mx-auto transition-all group`}
+                  className={`bg-blue-900 rounded-lg mx-auto transition-all group group-hover:bg-blue-700 duration-500 ease-in-out`}
                 >
                   <img
                     src={project.img}
-                    className="object-scale-down object-top p-4 w-full h-4/5 rounded-lg"
+                    className="object-top p-3 w-full h-full rounded-2xl transition-all duration-500 ease-in-out"
                     alt={project.name}
                   />
-                  <div className="absolute bottom-0 w-full bg-gray-900 bg-opacity-90 transition-all duration-500 group-hover:opacity-100">
+                  <div className="absolute bottom-0 w-full rounded-b-lg bg-gray-900 bg-opacity-90 md:bg-opacity-100">
                     <div className="px-4 py-2 text-2xl font-bold mt-2 text-white text-center">
                       {project.name}
                     </div>
