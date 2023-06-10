@@ -4,7 +4,9 @@ import TypeWriter from "typewriter-effect";
 function Hero() {
   return (
     <div className="flex flex-col gap-6 items-center justify-center font-medium">
-      <h1 className="text-8xl font-bold mb-8">🧑‍💻<span className="text-6xl">👋</span></h1>
+      <h1 className="text-8xl font-bold mb-8">
+        🧑‍💻<span className="text-6xl">👋</span>
+      </h1>
       <h2 className="text-4xl font-bold flex gap-2">
         hi, i'm
         <span className="text-yellow-500">

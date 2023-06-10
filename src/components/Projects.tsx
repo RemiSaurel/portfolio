@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import {Autoplay, EffectCoverflow, Pagination} from "swiper";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
@@ -93,7 +93,7 @@ function Projects() {
         grabCursor={true}
         pagination={{
           dynamicBullets: true,
-            clickable: true,
+          clickable: true,
         }}
         centeredSlides={true}
         autoplay={{
