@@ -31,7 +31,7 @@ const projects = [
     ],
     tags: ["Web", "Front", "React"],
     description:
-      "This is a sorting visualizer I made to learn React and Tailwindcss. It's a simple web app that allows you to visualize sorting algorithms.",
+      "This is a sorting visualizer I made to learn React. It's a simple web app that allows you to visualize sorting algorithms.",
   },
   {
     name: "Lockio",

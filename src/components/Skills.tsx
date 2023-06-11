@@ -54,11 +54,11 @@ function Skills() {
       <div className="flex flex-col items-center justify-center">
         <SectionHeader title="skills" subtitle={subtitle} />
 
-        <div className="grid gap-8 gap-y-20 mt-20 mb-8 sm:grid-cols-2 lg:grid-cols-3 cursor-default">
+         <div className="grid gap-8 gap-y-20 mt-20 mb-8 sm:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col gap-4 items-center border border-white rounded-xl px-8 pb-4 group hover:bg-blue-950 hover:scale-105 transition-all"
+              className="flex flex-col gap-4 items-center  border border-white rounded-xl px-8 pb-4 group hover:bg-blue-950 hover:shadow-xl hover:scale-105 transition-all"
             >
               <div className="w-16 h-16 -rotate-45 bg-blue-900 -top-10 relative transition-all duration-500 rounded-xl group-hover:rotate-0 group-hover:scale-125">
                 <div className="flex justify-center items-center h-full">

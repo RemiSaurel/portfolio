@@ -9,17 +9,19 @@ function App() {
     <Router>
       <div>
         <AnimatedCursor
+          color={'230, 175, 46'}
           innerSize={8}
           outerSize={40}
-          innerScale={1}
-          outerScale={2}
-          outerAlpha={0.1}
+          innerScale={0.7}
+          outerScale={1.4}
           outerStyle={{
-            border: "3px solid #E6AF2E",
+            border: "1px solid #E6AF2E",
           }}
           innerStyle={{
             backgroundColor: "#E6AF2E",
           }}
+          trailingSpeed={5}
+          showSystemCursor={false}
         />
         <div className="overflow-y-auto h-screen">
           <Switch>
