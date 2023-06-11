@@ -4,6 +4,7 @@ import spotidrone from "../assets/projects/spotidrone.png";
 import github from "../assets/github.svg";
 import web from "../assets/web.svg";
 import lockio from "../assets/projects/lockio.png";
+import poggers from "../assets/projects/poggers.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -74,6 +75,23 @@ const projects = [
     tags: ["API", "Python", "Spotify"],
     description:
       "Python script that allows you to discover new artists based on your recommendations. I'm using the Spotify API to get the recommendations and create the playlist.",
+  },
+  {
+    name: "Poggers Typer",
+    img: poggers,
+    links: [
+      {
+        icon: github,
+        url: "https://github.com/RemiSaurel/PoggersTyper",
+      },
+      {
+      icon: web,
+      url: "https://poggers-typer.vercel.app/",
+      }
+    ],
+    tags: ["Web", "Front"],
+    description:
+        "A vanilla JS typing game. I made this project to learn more about vanilla JS and CSS.",
   },
 ];
 

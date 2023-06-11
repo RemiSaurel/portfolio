@@ -11,19 +11,19 @@ const skills = [
     name: "Front-end",
     logo: frontend,
     description:
-      "I like building web apps and websites. I learnt to use technologies like Angular, Vue, Tailwindcss and more.",
+      "Building websites is something I enjoy. Currently learning React, I've knowledge in other frameworks like Vue.js and Angular.",
   },
   {
     name: "Back-end",
     logo: backend,
     description:
-      "Building APIs and microservices is something I enjoy. I learnt to use technologies like Node.js, Spring Boot and general architecture.",
+      "Spring Boot, Node.js, ... I've been trained to build back-end applications within my CS studies and my apprenticeship missions.",
   },
   {
     name: "Database",
     logo: database,
     description:
-      "Databases have always been part of my education. I've knowledge in SQL and NoSQL databases.",
+      "Databases have always been part of my education. I've knowledge in SQL and NoSQL databases with MySQL, Oracle, Postgres, Neo4J, etc.",
   },
   {
     name: "UX / UI",
@@ -35,13 +35,13 @@ const skills = [
     name: "Data analysis",
     logo: data_analysis,
     description:
-      "I've been trained to use data analysis tools like R, Python, and i'm currently increasing my skills in this field.",
+      "Data analysis languages like R or Python have always interested me. I've been using them for some missions and still learning new things about them.",
   },
   {
     name: "Git",
     logo: git,
     description:
-      "I've been using git for a long time now, and I'm used to work with it in a team since this is a must-to-know tool for developer.",
+      "This is a must-to-know tool for developer and I'm trying to master it as much as possible.",
   },
 ];
 
