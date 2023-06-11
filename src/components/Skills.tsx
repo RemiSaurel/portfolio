@@ -35,7 +35,7 @@ const skills = [
     name: "Data analysis",
     logo: data_analysis,
     description:
-      "Data analysis languages like R or Python have always interested me. I've been using them for some missions and still learning new things about them.",
+      "Data analysis has always interested me. I've been doing it for missions + projects and still learning new things about it.",
   },
   {
     name: "Git",
