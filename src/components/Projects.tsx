@@ -138,11 +138,11 @@ function Projects() {
             <div className="rounded-lg flex justify-center items-center">
               <div className="justify-center w-[300px] h-[400px] md:w-[600px] md:h-[500px] lg:w-[700px] lg:h-[600px] group">
                 <div
-                  className={`bg-blue-900 rounded-lg mx-auto transition-all group group-hover:bg-blue-700 duration-500 ease-in-out`}
+                  className={`bg-blue-950 rounded-lg mx-auto transition-all group group-hover:bg-blue-800 duration-500 ease-in-out`}
                 >
                   <img
                     src={project.img}
-                    className="object-top p-3 w-full h-full rounded-2xl transition-all duration-500 ease-in-out"
+                    className="object-top p-2 w-full h-full rounded-xl transition-all duration-500 ease-in-out"
                     alt={project.name}
                   />
                   <div className="absolute bottom-0 w-full rounded-b-lg bg-gray-900 bg-opacity-90 md:bg-opacity-100">

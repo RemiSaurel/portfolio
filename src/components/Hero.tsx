@@ -51,21 +51,21 @@ function Hero() {
       </p>
       <div className="flex gap-8">
         <a
-          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
+          className="w-14 h-14 rounded-full bg-blue-900 mt-2 items-center flex justify-center transition-all duration-200 hover:scale-125"
           href="mailto:remi.saurel@toulouse.miage.fr"
           target="_blank"
         >
           <img className="w-8 h-8" src={mail} alt="mail" />
         </a>
         <a
-          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
+          className="w-14 h-14 rounded-full bg-blue-900 mt-2 items-center flex justify-center transition-all duration-200 hover:scale-125"
           href="https://github.com/RemiSaurel"
           target="_blank"
         >
           <img src={github} alt="github" />
         </a>
         <a
-          className="w-14 h-14 rounded-full bg-blue-800 mt-2 items-center flex justify-center transition-all duration-200 hover:bg-blue-900 hover:scale-125"
+          className="w-14 h-14 rounded-full bg-blue-900 mt-2 items-center flex justify-center transition-all duration-200 hover:scale-125"
           href="https://www.linkedin.com/in/r%C3%A9mi-saurel/"
           target="_blank"
         >
