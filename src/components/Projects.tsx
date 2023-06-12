@@ -110,7 +110,7 @@ const projects = [
     ],
     tags: ["Web", "Front", "Back", "MongoDB"],
     description:
-        "L3 Web project. We had to create a web app that allows you to create and share events planning.",
+        "3rd year university Web project. We had to create a web app that allows you to create and share events planning.",
   },
 ];
 
