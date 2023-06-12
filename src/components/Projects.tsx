@@ -5,6 +5,7 @@ import github from "../assets/github.svg";
 import web from "../assets/web.svg";
 import lockio from "../assets/projects/lockio.png";
 import poggers from "../assets/projects/poggers.png";
+import dodleme from "../assets/projects/dodleme.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -92,6 +93,24 @@ const projects = [
     tags: ["Web", "Front"],
     description:
         "A vanilla JS typing game. I made this project to learn more about vanilla JS and CSS.",
+  },
+  {
+    name: "DodleMe",
+    img: dodleme,
+    links: [
+      {
+        icon: github,
+        url: "https://github.com/RemiSaurel/dodleme",
+      },
+      {
+        icon: github,
+        url: "https://github.com/AdamKhalepo/dodlemeapi",
+      }
+
+    ],
+    tags: ["Web", "Front", "Back", "MongoDB"],
+    description:
+        "L3 Web project. We had to create a web app that allows you to create and share events planning.",
   },
 ];
 
