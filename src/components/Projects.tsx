@@ -6,6 +6,7 @@ import web from "../assets/web.svg";
 import lockio from "../assets/projects/lockio.png";
 import poggers from "../assets/projects/poggers.png";
 import dodleme from "../assets/projects/dodleme.png";
+import avecle6 from "../assets/projects/avecle6.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -64,6 +65,19 @@ const projects = [
     tags: ["Web", "Front", "Vue", "Back", "Supabase"],
     description:
       "This web app allows you to work with lofi-music, a pomodoro timer and a todo list.",
+  },
+  {
+    name: "avecle6",
+    img: avecle6,
+    links: [
+      {
+        icon: web,
+        url: "https://www.avecle6.com/",
+      },
+    ],
+    tags: ["Web", "UX/UI", "Design", "Front"],
+    description:
+        "Official website of the Overwatch French team avecle6. I helped on the design and the web integration.",
   },
   {
     name: "SpotiDrone",
