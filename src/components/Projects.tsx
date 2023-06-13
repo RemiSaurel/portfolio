@@ -13,7 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { Autoplay, EffectCoverflow, Pagination } from "swiper";
+import {Autoplay, EffectCoverflow, Keyboard, Mousewheel, Pagination} from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
@@ -125,6 +125,9 @@ function Projects() {
         <SectionHeader title="projects" subtitle={subtitle} />
       </div>
       <Swiper
+          keyboard={{
+            enabled: true,
+          }}
         roundLengths={true}
         effect={"coverflow"}
         spaceBetween={10}
@@ -146,7 +149,7 @@ function Projects() {
           depth: 70,
           modifier: 1,
         }}
-        modules={[Autoplay, EffectCoverflow, Pagination]}
+        modules={[Autoplay, EffectCoverflow, Pagination, Keyboard]}
         className="w-full h-full py-8"
       >
         {projects.map((project, index) => (
