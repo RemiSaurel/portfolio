@@ -54,7 +54,7 @@ function Skills() {
       <div className="flex flex-col items-center justify-center">
         <SectionHeader title="skills" subtitle={subtitle} />
 
-         <div className="grid gap-8 gap-y-20 mt-20 mb-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 gap-y-20 mt-20 mb-8 sm:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill, index) => (
             <div
               key={index}

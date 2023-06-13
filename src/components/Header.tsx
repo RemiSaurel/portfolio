@@ -40,7 +40,7 @@ function Header() {
               <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>
             </div>
           </Link>
-          <Link to="/portfolio/blog" className='disabled-link'>
+          <Link to="/portfolio/blog" className="disabled-link">
             <div className="group">
               <span>👀 blog</span>
               <div className="opacity-0 relative w-full bottom-2.5 -z-10 -right-2 h-2 bg-yellow-800 rounded group-hover:opacity-100 transition-all duration-300"></div>

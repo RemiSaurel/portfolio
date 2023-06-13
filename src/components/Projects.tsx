@@ -13,7 +13,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import {Autoplay, EffectCoverflow, Keyboard, Mousewheel, Pagination} from "swiper";
+import {Autoplay, EffectCoverflow, Keyboard, Pagination} from "swiper";
+
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
@@ -86,13 +87,13 @@ const projects = [
         url: "https://github.com/RemiSaurel/PoggersTyper",
       },
       {
-      icon: web,
-      url: "https://poggers-typer.vercel.app/",
-      }
+        icon: web,
+        url: "https://poggers-typer.vercel.app/",
+      },
     ],
     tags: ["Web", "Front"],
     description:
-        "A vanilla JS typing game. I made this project to learn more about vanilla JS and CSS.",
+      "A vanilla JS typing game. I made this project to learn more about vanilla JS and CSS.",
   },
   {
     name: "DodleMe",
@@ -105,12 +106,11 @@ const projects = [
       {
         icon: github,
         url: "https://github.com/AdamKhalepo/dodlemeapi",
-      }
-
+      },
     ],
     tags: ["Web", "Front", "Back", "MongoDB"],
     description:
-        "3rd year university Web project. We had to create a web app that allows you to create and share events planning.",
+      "3rd year university Web project. We had to create a web app that allows you to create and share events planning.",
   },
 ];
 
@@ -125,9 +125,9 @@ function Projects() {
         <SectionHeader title="projects" subtitle={subtitle} />
       </div>
       <Swiper
-          keyboard={{
-            enabled: true,
-          }}
+        keyboard={{
+          enabled: true,
+        }}
         roundLengths={true}
         effect={"coverflow"}
         spaceBetween={10}

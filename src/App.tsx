@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div>
         <AnimatedCursor
-          color={'230, 175, 46'}
+          color={"230, 175, 46"}
           innerSize={8}
           outerSize={40}
           innerScale={0.7}
