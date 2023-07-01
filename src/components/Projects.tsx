@@ -7,6 +7,7 @@ import lockio from "../assets/projects/lockio.png";
 import poggers from "../assets/projects/poggers.png";
 import dodleme from "../assets/projects/dodleme.png";
 import avecle6 from "../assets/projects/avecle6.png";
+import miageland from "../assets/projects/miageland.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -19,6 +20,13 @@ import {Autoplay, EffectCoverflow, Keyboard, Pagination} from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
+  {
+    name: "MIAGELand",
+    img: miageland,
+    tags: ["Full-stack", "Vue", "Spring Boot", "Docker", "Optimization"],
+    links: [],
+    description: "University project to create an amusement Park web application. We created a full-stack app working with a large amount of data, with statistics, admin panel and many other features."
+  },
   {
     name: "Sorting Visualizer",
     img: sorting,
