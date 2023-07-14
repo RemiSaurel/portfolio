@@ -8,6 +8,7 @@ import poggers from "../assets/projects/poggers.png";
 import dodleme from "../assets/projects/dodleme.png";
 import avecle6 from "../assets/projects/avecle6.png";
 import miageland from "../assets/projects/miageland.png";
+import blockus from "../assets/projects/blockus.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -20,6 +21,18 @@ import {Autoplay, EffectCoverflow, Keyboard, Pagination} from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
+  {
+    name: "Blockus",
+    img: blockus,
+    tags: ["Game", "Vue", "Firebase", "Graph"],
+    links: [
+        {
+            icon: web,
+            url: "https://blockus-prod-d75bc.web.app/",
+        }
+    ],
+    description: "Blockus is a game based on nodes and links. The goal is to reach 25 points. This is a multiplayer game, feel free to try it out!"
+  },
   {
     name: "MIAGELand",
     img: miageland,
