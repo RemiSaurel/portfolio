@@ -156,8 +156,11 @@ const subtitle =
 function Projects() {
   return (
     <div className="w-full mb-8">
-      <div className="m-auto w-full md:w-3/4 lg:w-2/3" id="projects">
+      <div className="m-auto w-full justify-center items-center flex flex-col md:w-3/4 lg:w-2/3" id="projects">
         <SectionHeader title="projects" subtitle={subtitle} />
+        <div className="text-md flex mt-2 gap-2">
+          navigate with <kbd>←</kbd><kbd>→</kbd>
+        </div>
       </div>
       <Swiper
         keyboard={{
