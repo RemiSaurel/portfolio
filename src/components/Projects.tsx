@@ -37,7 +37,12 @@ const projects = [
     name: "MIAGELand",
     img: miageland,
     tags: ["Full-stack", "Vue", "Spring Boot", "Docker", "Optimization"],
-    links: [],
+    links: [
+      {
+        icon: github,
+        url: "https://github.com/MIAGELand"
+      }
+    ],
     description: "University project to create an amusement Park web application. We created a full-stack app working with a large amount of data, with statistics, admin panel and many other features."
   },
   {
