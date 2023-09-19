@@ -16,7 +16,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import {Autoplay, EffectCoverflow, Keyboard, Pagination} from "swiper";
+import { Autoplay, EffectCoverflow, Keyboard, Pagination } from "swiper";
 
 import SectionHeader from "./SectionHeader.tsx";
 
@@ -26,12 +26,13 @@ const projects = [
     img: blockus,
     tags: ["Game", "Vue", "Firebase", "Graph"],
     links: [
-        {
-            icon: web,
-            url: "https://blockus-prod-d75bc.web.app/",
-        }
+      {
+        icon: web,
+        url: "https://blockus-prod-d75bc.web.app/",
+      },
     ],
-    description: "Blockus is a game based on nodes and links. The goal is to reach 25 points. This is a multiplayer game, feel free to try it out!"
+    description:
+      "Blockus is a game based on nodes and links. The goal is to reach 25 points. This is a multiplayer game, feel free to try it out!",
   },
   {
     name: "MIAGELand",
@@ -40,10 +41,11 @@ const projects = [
     links: [
       {
         icon: github,
-        url: "https://github.com/MIAGELand"
-      }
+        url: "https://github.com/MIAGELand",
+      },
     ],
-    description: "University project to create an amusement Park web application. We created a full-stack app working with a large amount of data, with statistics, admin panel and many other features."
+    description:
+      "University project to create an amusement Park web application. We created a full-stack app working with a large amount of data, with statistics, admin panel and many other features.",
   },
   {
     name: "Sorting Visualizer",
@@ -103,7 +105,7 @@ const projects = [
     ],
     tags: ["Web", "UX/UI", "Design", "Front"],
     description:
-        "Official website of the Overwatch French team avecle6. I helped on the design and the web integration.",
+      "Official website of the Overwatch French team avecle6. I helped on the design and the web integration.",
   },
   {
     name: "SpotiDrone",
@@ -161,10 +163,14 @@ const subtitle =
 function Projects() {
   return (
     <div className="w-full mb-8">
-      <div className="m-auto w-full justify-center items-center flex flex-col md:w-3/4 lg:w-2/3" id="projects">
+      <div
+        className="m-auto w-full justify-center items-center flex flex-col md:w-3/4 lg:w-2/3"
+        id="projects"
+      >
         <SectionHeader title="projects" subtitle={subtitle} />
         <div className="text-md flex mt-2 gap-2">
-          navigate with <kbd>←</kbd><kbd>→</kbd>
+          navigate with <kbd>←</kbd>
+          <kbd>→</kbd>
         </div>
       </div>
       <Swiper

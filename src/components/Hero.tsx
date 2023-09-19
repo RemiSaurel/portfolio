@@ -1,6 +1,7 @@
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import mail from "../assets/mail.svg";
+import discord from "../assets/discord.svg";
 import TypeWriter from "typewriter-effect";
 function Hero() {
   return (
@@ -48,8 +49,21 @@ function Hero() {
         and
         <span className="text-yellow-500"> IRIT </span>
         (TALENT team), on a TEL subject.
+        <br />
+        <span>
+          Feel free to join my{" "}
+          <span className="text-yellow-500"> Studoby Discord </span>
+          dedicated to IT studies and mutual help.
+        </span>
       </p>
       <div className="flex gap-8">
+        <a
+          className="w-14 h-14 rounded-full bg-blue-900 mt-2 items-center flex justify-center transition-all duration-200 hover:scale-125"
+          href="https://discord.gg/sAPh3aTvqB"
+          target="_blank"
+        >
+          <img className="w-8 h-8" src={discord} alt="discord" />
+        </a>
         <a
           className="w-14 h-14 rounded-full bg-blue-900 mt-2 items-center flex justify-center transition-all duration-200 hover:scale-125"
           href="mailto:remi.saurel@toulouse.miage.fr"
