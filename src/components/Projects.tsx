@@ -9,6 +9,7 @@ import dodleme from "../assets/projects/dodleme.png";
 import avecle6 from "../assets/projects/avecle6.png";
 import miageland from "../assets/projects/miageland.png";
 import blockus from "../assets/projects/blockus.png";
+import wasabi from "../assets/projects/wasabi.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -21,6 +22,22 @@ import { Autoplay, EffectCoverflow, Keyboard, Pagination } from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
+  {
+    name: "Wasabi",
+    img: wasabi,
+    tags: ["Vue", "Python", "Dataviz"],
+    links: [
+      {
+        icon: web,
+        url: "https://wasabi-project.github.io/wasabi-dataviz/#/dataviz",
+      },
+      {
+        icon: github,
+        url: "https://github.com/wasabi-project",
+      }
+    ],
+    description: "Data visualization university project based on a music API. Python data processing and Vue front-end with D3.",
+  },
   {
     name: "Blockus",
     img: blockus,
