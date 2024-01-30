@@ -10,6 +10,7 @@ import avecle6 from "../assets/projects/avecle6.png";
 import miageland from "../assets/projects/miageland.png";
 import blockus from "../assets/projects/blockus.png";
 import wasabi from "../assets/projects/wasabi.png";
+import datastrike from "../assets/projects/datastrike.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -22,6 +23,23 @@ import { Autoplay, EffectCoverflow, Keyboard, Pagination } from "swiper";
 import SectionHeader from "./SectionHeader.tsx";
 
 const projects = [
+  {
+    name: "Datastrike",
+    img: datastrike,
+    tags: ["Web", "Full-stack"],
+    links: [
+      {
+        icon: web,
+        url: "https://datastrike.cloud/",
+      },
+      {
+        icon: github,
+        url: "https://github.com/datastrike",
+      },
+    ],
+    description:
+      "Datastrike is a project about esport and data. Feel free to check it out to discover the different analysis features!",
+  },
   {
     name: "Wasabi",
     img: wasabi,
