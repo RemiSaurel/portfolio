@@ -87,12 +87,12 @@ const projects = [
     img: sorting,
     links: [
       {
-        icon: github,
-        url: "https://github.com/RemiSaurel/sorting-algorithms",
-      },
-      {
         icon: web,
         url: "https://remisaurel.github.io/sorting-algorithms/",
+      },
+      {
+        icon: github,
+        url: "https://github.com/RemiSaurel/sorting-algorithms",
       },
     ],
     tags: ["Web", "Front", "React"],
@@ -117,13 +117,14 @@ const projects = [
     img: ownworkspace,
     links: [
       {
-        icon: github,
-        url: "https://github.com/RemiSaurel/own-workspace",
-      },
-      {
         icon: web,
         url: "https://workspace-remisaurel.vercel.app/",
       },
+      {
+        icon: github,
+        url: "https://github.com/RemiSaurel/own-workspace",
+      },
+
     ],
     tags: ["Web", "Front", "Vue", "Back", "Supabase"],
     description:
@@ -160,13 +161,14 @@ const projects = [
     img: poggers,
     links: [
       {
-        icon: github,
-        url: "https://github.com/RemiSaurel/PoggersTyper",
-      },
-      {
         icon: web,
         url: "https://poggers-typer.vercel.app/",
       },
+      {
+        icon: github,
+        url: "https://github.com/RemiSaurel/PoggersTyper",
+      },
+
     ],
     tags: ["Web", "Front"],
     description:
