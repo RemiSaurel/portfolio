@@ -34,12 +34,11 @@ function Hero() {
         </span>
       </h2>
       <p className="text-xl text-cyan-200 text-center">
-        Computer Science student in apprenticeship
+        IT and Research enthusiast
       </p>
       <p className="text-xl w-4/5 md:w-2/5 text-center mb-8">
-        I’m 25 years old, currently in Master
-        <span className="text-yellow-500"> MIAGE </span>
-        (CS + Project management) at
+      CS + Project Management <span className="text-yellow-500"> (MIAGE) </span>
+        Master degree at 
         <span className="text-yellow-500"> University Paul Sabatier </span>
         Toulouse, France. <br />
         I’m working as a
